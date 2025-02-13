@@ -1,0 +1,38 @@
+﻿<Window x:Class="System_Retail_Operation_POS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:System_Retail_Operation_POS"
+        mc:Ignorable="d"
+        Icon="Asset/Icono.png"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="181*"/>
+            <ColumnDefinition Width="19*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="System Retail Operation Manager" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <ContentControl Content="{Binding CurrentViewModel}" Grid.Column="1" Grid.Row="1"/>
+        <Border Grid.Column="0" Grid.Row="1" Margin="10,10,10,10">
+            <StackPanel>
+                <ListBox SelectionChanged="Navigated">
+                    <ListBoxItem Content="POS" Tag="Tenter"/>
+                    <ListBoxItem Content="Product" Tag="Product"/> 
+                    <ListBoxItem Content="Menu" />
+                    <ListBoxItem Content="Menu" />
+                    <ListBoxItem Content="Menu" />
+                    <ListBoxItem Content="Menu" />
+                    <ListBoxItem Content="Menu" />
+                </ListBox>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
