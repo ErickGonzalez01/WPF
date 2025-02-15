@@ -24,13 +24,6 @@ namespace System_Retail_Operation_POS.View
         public ProductView()
         {
             InitializeComponent();            
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Hola");
-            AddProduct product = new AddProduct();
-            product.ShowDialog();
-        }
+        }        
     }
 }

@@ -3,31 +3,43 @@
   "WorkspaceRootPath": "C:\\Erick\\System Retail Operation POS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\view\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:view\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\system retail operation pos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:system retail operation pos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\validation\\uniquecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:validation\\uniquecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|C:\\Erick\\System Retail Operation POS\\view\\addproduct.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:view\\addproduct.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|C:\\Erick\\System Retail Operation POS\\converter\\stringtodoubleconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:converter\\stringtodoubleconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|C:\\Erick\\System Retail Operation POS\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\view\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|C:\\Erick\\System Retail Operation POS\\view\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:view\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\view\\tenderview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:view\\tenderview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|C:\\Erick\\System Retail Operation POS\\view\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:view\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\view\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:view\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|C:\\Erick\\System Retail Operation POS\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|C:\\Erick\\System Retail Operation POS\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|c:\\erick\\system retail operation pos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|C:\\Erick\\System Retail Operation POS\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B386D375-2352-4E90-80CF-3098A4E2ED9E}|System Retail Operation POS.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,91 +58,121 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddProduct.xaml.cs",
-              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\View\\AddProduct.xaml.cs",
-              "RelativeDocumentMoniker": "View\\AddProduct.xaml.cs",
-              "ToolTip": "C:\\Erick\\System Retail Operation POS\\View\\AddProduct.xaml.cs",
-              "RelativeToolTip": "View\\AddProduct.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T16:35:00.626Z",
+              "DocumentIndex": 0,
+              "Title": "System Retail Operation POS",
+              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\System Retail Operation POS.csproj",
+              "RelativeDocumentMoniker": "System Retail Operation POS.csproj",
+              "ToolTip": "C:\\Erick\\System Retail Operation POS\\System Retail Operation POS.csproj",
+              "RelativeToolTip": "System Retail Operation POS.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-14T17:26:15.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "UniqueCategory.cs",
+              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\Validation\\UniqueCategory.cs",
+              "RelativeDocumentMoniker": "Validation\\UniqueCategory.cs",
+              "ToolTip": "C:\\Erick\\System Retail Operation POS\\Validation\\UniqueCategory.cs",
+              "RelativeToolTip": "Validation\\UniqueCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T03:02:17.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddProduct.xaml",
+              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\View\\AddProduct.xaml",
+              "RelativeDocumentMoniker": "View\\AddProduct.xaml",
+              "ToolTip": "C:\\Erick\\System Retail Operation POS\\View\\AddProduct.xaml",
+              "RelativeToolTip": "View\\AddProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T02:14:54.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ProductView.xaml",
               "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\View\\ProductView.xaml",
               "RelativeDocumentMoniker": "View\\ProductView.xaml",
               "ToolTip": "C:\\Erick\\System Retail Operation POS\\View\\ProductView.xaml",
               "RelativeToolTip": "View\\ProductView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-12T16:34:32.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T02:14:50.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductView.xaml.cs",
-              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\View\\ProductView.xaml.cs",
-              "RelativeDocumentMoniker": "View\\ProductView.xaml.cs",
-              "ToolTip": "C:\\Erick\\System Retail Operation POS\\View\\ProductView.xaml.cs",
-              "RelativeToolTip": "View\\ProductView.xaml.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAAhAAAA",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Erick\\System Retail Operation POS\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T16:32:38.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T02:00:35.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\ViewModel\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\ProductViewModel.cs",
               "ToolTip": "C:\\Erick\\System Retail Operation POS\\ViewModel\\ProductViewModel.cs",
               "RelativeToolTip": "ViewModel\\ProductViewModel.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBkAAAAoAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAawBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:41:58.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T02:00:17.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TenderView.xaml.cs",
-              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\View\\TenderView.xaml.cs",
-              "RelativeDocumentMoniker": "View\\TenderView.xaml.cs",
-              "ToolTip": "C:\\Erick\\System Retail Operation POS\\View\\TenderView.xaml.cs",
-              "RelativeToolTip": "View\\TenderView.xaml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T16:35:15.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Erick\\System Retail Operation POS\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-12T16:27:57.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
               "ToolTip": "C:\\Erick\\System Retail Operation POS\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-12T16:21:08.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T02:00:28.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StringToDoubleConvert.cs",
+              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\Converter\\StringToDoubleConvert.cs",
+              "RelativeDocumentMoniker": "Converter\\StringToDoubleConvert.cs",
+              "ToolTip": "C:\\Erick\\System Retail Operation POS\\Converter\\StringToDoubleConvert.cs",
+              "RelativeToolTip": "Converter\\StringToDoubleConvert.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:20:09.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Erick\\System Retail Operation POS\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-13T23:36:14.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddProduct.xaml",
+              "DocumentMoniker": "C:\\Erick\\System Retail Operation POS\\View\\AddProduct.xaml",
+              "RelativeDocumentMoniker": "View\\AddProduct.xaml",
+              "ToolTip": "C:\\Erick\\System Retail Operation POS\\View\\AddProduct.xaml",
+              "RelativeToolTip": "View\\AddProduct.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-13T21:08:10.337Z"
             }
           ]
         }

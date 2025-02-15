@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System_Retail_Operation_POS.ViewModel;
 
 namespace System_Retail_Operation_POS.View
 {
@@ -19,9 +20,10 @@ namespace System_Retail_Operation_POS.View
     /// </summary>
     public partial class AddProduct : Window
     {
-        public AddProduct()
+        public AddProduct(ProductViewModel context)
         {
             InitializeComponent();
+            DataContext = context;
         }
     }
 }

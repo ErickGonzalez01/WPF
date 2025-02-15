@@ -5,8 +5,76 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:System_Retail_Operation_POS.View"
         mc:Ignorable="d"
-        Title="AddProduct" Height="450" Width="800">
-    <Grid>
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Icon="../Asset/Icono.png"
+        xmlns:Convert="clr-namespace:System_Retail_Operation_POS.Converter"
+        xmlns:Validation="clr-namespace:System_Retail_Operation_POS.Validation"
+        Title="Nuevo Producto" Height="289" Width="600">
+    <Window.Resources>
+        <Convert:StringToDoubleConvert x:Key="StringToDoubleConvert"/>
         
+        <ControlTemplate x:Key="ValidationErrorTemplate">
+            <DockPanel LastChildFill="True">
+                <TextBlock Foreground="Red" DockPanel.Dock="Bottom" Text="{Binding [0].ErrorContent}"/>
+                <AdornedElementPlaceholder/>
+            </DockPanel>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Label Width="150" Content="Código de barra:"></Label>
+                <TextBox Width="300" x:Name="txtBarCode">
+                    <TextBox.Text>
+                        <Binding Path="Product.BarCode">
+                            <Binding.ValidationRules>
+                                <StaticResource Property="Tooltp"  ResourceKey="ValidationErrorTemplate"></StaticResource>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Label Width="150" Content="Categoría:"></Label>
+                <TextBox Width="300" x:Name="txtCategory"/>
+            </StackPanel>
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Label Width="150" Content="Descripción:"></Label>
+                <TextBox Width="300" x:Name="txtDescription"/>
+            </StackPanel>
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Label Width="150" Content="Precio:"></Label>
+                <TextBox Width="300" x:Name="txtPrice"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="1">
+            <Border BorderBrush="Black" BorderThickness="2" Margin="5" Padding="5" CornerRadius="5">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="150" Content="Producto padre:"></Label>
+                        <TextBox Width="300" x:Name="txtParentProduct"/>
+                        <TextBlock>Lorem Ipsom</TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="150" Content="Cantidad de hijos:"></Label>
+                        <TextBox Width="300" x:Name="txtQuantityProductsChildren"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        <DockPanel HorizontalAlignment="Right" Grid.Row="2" Grid.Column="0">
+            <Button Template="{StaticResource BtnImage}" Content="Cancelar"/>
+            <Button Template="{StaticResource BtnImage}" Content="Guardar"/>
+        </DockPanel>
     </Grid>
 </Window>

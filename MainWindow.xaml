@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:System_Retail_Operation_POS"
         mc:Ignorable="d"
         Icon="Asset/Icono.png"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="450" Width="800">
 
     <Grid>

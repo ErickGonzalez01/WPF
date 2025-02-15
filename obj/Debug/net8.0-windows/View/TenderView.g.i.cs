@@ -61,7 +61,7 @@ namespace System_Retail_Operation_POS.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/System Retail Operation POS;component/view/tenderview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/System Retail Operation POS;V1.0.0.0;component/view/tenderview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\TenderView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

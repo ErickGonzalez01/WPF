@@ -8,7 +8,8 @@ using System.Windows;
 using System_Retail_Operation_POS.Model;
 using System_Retail_Operation_POS.View;
 using System_Retail_Operation_POS.ViewModel;
-using System_Retail_Operation_POS.Command;
+using System_Retail_Operation_POS.Converter;
+
 
 namespace System_Retail_Operation_POS
 {
@@ -40,12 +41,18 @@ namespace System_Retail_Operation_POS
             //MainWindow
             services.AddSingleton<MainWindow>();
 
-            //Model           
-
             //ViewModel            
             services.AddSingleton<MainViewModel>();
             services.AddSingleton<TenderViewModel>();
             services.AddSingleton<ProductViewModel>();
+
+            //Model
+
+            //View
+            services.AddTransient<AddProduct>();
+
+            //Converter
+            services.AddTransient<StringToDoubleConvert>();
 
         }
         protected override void OnStartup(StartupEventArgs e)

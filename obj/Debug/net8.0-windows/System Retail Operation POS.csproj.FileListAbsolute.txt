@@ -162,3 +162,4 @@ C:\Erick\System Retail Operation POS\obj\Debug\net8.0-windows\refint\System Reta
 C:\Erick\System Retail Operation POS\obj\Debug\net8.0-windows\System Retail Operation POS.pdb
 C:\Erick\System Retail Operation POS\obj\Debug\net8.0-windows\System Retail Operation POS.genruntimeconfig.cache
 C:\Erick\System Retail Operation POS\obj\Debug\net8.0-windows\ref\System Retail Operation POS.dll
+C:\Erick\System Retail Operation POS\obj\Debug\net8.0-windows\System Retail Operation POS.sourcelink.json

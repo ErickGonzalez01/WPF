@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace System_Retail_Operation_POS.ViewModel
 {
-    internal class BaseViewModel : INotifyPropertyChanged
+    public class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
         public void OnPropertiChanged(string nameProperty)

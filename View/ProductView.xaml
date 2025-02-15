@@ -19,7 +19,8 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="1" Grid.Column="1">
-            <Button x:Name="btnAddProduct" Click="Button_Click" Command="{Binding AddProduct}" Margin="3" Padding="10" Template="{StaticResource BtnImage}" Width="150" Height="100" Background="Blue" BorderThickness="0">
+            <TextBlock Text="{Binding Num}"></TextBlock>
+            <Button x:Name="btnAddProduct" Command="{Binding AddProduct}" Margin="3" Padding="10" Template="{StaticResource BtnImage}" Width="150" Height="100" Background="Blue" BorderThickness="0">
                 <StackPanel>
                     <Image Source="\Asset\New.png" Width="70" Height="70"/>
                     <TextBlock Text="Nuevo producto" HorizontalAlignment="Center"/>
@@ -33,13 +34,13 @@
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="2" Margin="3">
-            <Button Padding="10" Template="{StaticResource BtnImage}" Width="150" Height="100" Margin="0" Background="Blue" BorderThickness="0">
+            <Button Command="{Binding NumIncrement}" Padding="10" Template="{StaticResource BtnImage}" Width="150" Height="100" Margin="0" Background="Blue" BorderThickness="0">
                 <StackPanel>
                     <Image Source="\Asset\Update.png" Width="70" Height="70"/>
                     <TextBlock Text="Actualizar inventario" HorizontalAlignment="Center"/>
                 </StackPanel>
             </Button>
-            <Button Padding="10" Template="{StaticResource BtnImage}" Width="150" Height="100" Margin="0" Background="Blue" BorderThickness="0">
+            <Button Command="{Binding NumDecrement}" Padding="10" Template="{StaticResource BtnImage}" Width="150" Height="100" Margin="0" Background="Blue" BorderThickness="0">
                 <StackPanel>
                     <Image Source="\Asset\New.png" Width="70" Height="70"/>
                     <TextBlock Text="Agregar proveedor" HorizontalAlignment="Center"/>
